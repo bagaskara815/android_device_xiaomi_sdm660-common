@@ -36,6 +36,8 @@ ro.config.bt_sco_vol_steps=30
 
 # IORAP
 ro.iorapd.enable=true
+iorapd.perfetto.enable=true
+iorapd.readahead.enable=true
 
 # LMKD
 ro.lmk.log_stats=true
