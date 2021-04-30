@@ -207,6 +207,16 @@ PRODUCT_PROPERTY_OVERRIDES += \
     camera.hal1.packagelist=com.android.camera,com.instagram.android \
     vendor.camera.hal1.packagelist= com.android.camera,com.instagram.android
 
+# IMS
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.dbg.volte_avail_ovr=1 \
+    persist.dbg.vt_avail_ovr=1 \
+    persist.vendor.ims.disableUserAgent=0 \
+    persist.vendor.ims.disableADBLogs=1 \
+    persist.vendor.ims.disableDebugLogs=1 \
+    persist.vendor.ims.disableIMSLogs=1 \
+    persist.vendor.ims.disableQXDMLogs=1
+
 # Media
 PRODUCT_PROPERTY_OVERRIDES += \
     debug.stagefright.omx_default_rank.sw-audio=1 \
